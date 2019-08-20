@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container {{isRuning? 'run':''}}">
+  <view class="time_show">{{hours}}:{{minute}}:{{second}}</view>
+  <view class="show_button {{isRuning? 'run':''}}" >
+    <button class="time_start {{isRuning? 'run_time':''}}" bindtap="start">{{isRuning? '计时继续':'开始计时'}} </button>
+    <button wx:if="{{isRuning==true}}"
+    class="time_stop {{isRuning? 'run_time':''}}" bindtap="stop">计时暂停</button>
+    <button wx:if="{{isRuning==true}}"
+    class="time_reset {{isRuning? 'run_time':''}}" bindtap="reset">时间复原</button>
+    <button wx:if="{{isRuning==true}}"
+    class="back {{isRuning? 'run_time':''}}" bindtap="pageback">返回首页</button>
+  </view>
+</view>
