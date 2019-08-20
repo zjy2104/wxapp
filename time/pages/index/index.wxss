@@ -1,0 +1,78 @@
+.time_show {
+  font-size: 18px;
+}
+.show_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 120px;
+  transition: all .3s;
+}
+.time_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  border-radius: 50%;
+  transition: all .7s;
+  background-color: #3197ed;
+}
+.run.show_button{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 20px;
+  transition: all .3s;
+}
+.run_time.time_stop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  border-radius: 50%;
+  transition: all .7s;
+  background-color: #3197ed;
+}
+.run_time.time_reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  border-radius: 50%;
+  transition: all .7s;
+  background-color: #3197ed;
+}
+.run_time.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  border-radius: 50%;
+  transition: all .7s;
+  background-color: #3197ed;
+}

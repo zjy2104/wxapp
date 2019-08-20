@@ -1,0 +1,20 @@
+<view class="cantair">
+  <view class="showtime" wx:if="{{isRuing}}">{{second}}</view>
+  <view class="section">
+    <text class="section_set"wx:if="{{!isRuing}}">工作时间（分钟）</text>
+    <view class="section_body" wx:if="{{!isRuing}}">
+	    <slider 
+	    	bindchange="changeWorkTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="60"
+	    	value="1"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+  </view>
+  <view class="show_button {{isRuing? 'run':''}}">
+    <button class="timestart {{isRuing? 'run':''}}"  bindtap="start">{{isRuing? '首页':'开始'}}</button>
+    <button class="timestop {{isRuing? 'run':''}}" wx:if="{{isRuing}}" bindtap="stop">停止</button>
+  </view>
+</view>

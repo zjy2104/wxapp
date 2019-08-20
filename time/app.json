@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "时钟记录",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":
+  {
+    "color":"#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        
+        "text": "计时器"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        
+        "text": "倒计时"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
